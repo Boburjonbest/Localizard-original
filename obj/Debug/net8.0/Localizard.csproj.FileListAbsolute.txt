@@ -383,3 +383,4 @@ D:\LocalizardMain-main\obj\Debug\net8.0\refint\Localizard.dll
 D:\LocalizardMain-main\obj\Debug\net8.0\Localizard.pdb
 D:\LocalizardMain-main\obj\Debug\net8.0\Localizard.genruntimeconfig.cache
 D:\LocalizardMain-main\obj\Debug\net8.0\ref\Localizard.dll
+D:\LocalizardMain-main\obj\Debug\net8.0\Localizard.sourcelink.json
