@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Localizard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d4f2a5acc7b40d7e4fbdf22414a8a5f9951f4df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b81c60a82c1636515c879e8b53450673b4dbc7b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Localizard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Localizard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
