@@ -29,16 +29,16 @@ public class ProjectDetailController : ControllerBase
    
 
     [HttpGet]
-    public IActionResult GetAllProjectDetails()
+    public IActionResult GetAllProjectDetails(string? Search = null) // Поисковик Продукты 
     {
         var projectDetails = _projectDetailRepo.GetAll();
-
-        var projectDetailViews = new List<GetProjectDetailView>();
-        foreach (var detial in projectDetails)
+        if (!string.IsNullOrEmpty(Search))
         {
-            var detailView = GetDetailMapper(detial);
-            projectDetailViews.Add(detailView);
+            projectDetails = projectDetails.Where(pd => pd.Key.Contains(Search, StringComparison.OrdinalIgnoreCase) || pd.Tag.Contains(Search, StringComparison.OrdinalIgnoreCase)).ToList();
+            
         }
+        var projectDetailViews = projectDetails.Select(detial => GetDetailMapper(detial)).ToList();
+       
 
         return Ok(projectDetailViews);
     }
