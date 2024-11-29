@@ -261,7 +261,6 @@ D:\LocalizardMain-main\obj\Debug\net8.0\Localizard.AssemblyInfo.cs
 D:\LocalizardMain-main\obj\Debug\net8.0\Localizard.csproj.CoreCompileInputs.cache
 D:\LocalizardMain-main\obj\Debug\net8.0\Localizard.MvcApplicationPartsAssemblyInfo.cs
 D:\LocalizardMain-main\obj\Debug\net8.0\Localizard.MvcApplicationPartsAssemblyInfo.cache
-D:\LocalizardMain-main\obj\Debug\net8.0\Localizard.sourcelink.json
 D:\LocalizardMain-main\bin\Debug\net8.0\appsettings.Development.json
 D:\LocalizardMain-main\bin\Debug\net8.0\appsettings.json
 D:\LocalizardMain-main\bin\Debug\net8.0\LocalizardMain\bin\Debug\net8.0\appsettings.Development.json
